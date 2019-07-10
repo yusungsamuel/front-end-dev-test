@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import { Row, Column } from "../../components/grid"
+import "./style.css"
 
 
 class Landing extends Component {
@@ -8,15 +9,16 @@ class Landing extends Component {
 
     render() {
         return (
-            <div className="container">
-                <Row>
-                    <Column
-                        width="12"
-                    >
-                        <img src="assets/image/hero.jpg"></img>
-                    </Column>
-                </Row>
-            </div>
+            <Row>
+                <Column
+                    width="12"
+                    extraClass="landing"
+                >
+                    <img className="logo" src="/assets/image/logo-white.svg" />
+                        <p className="my-auto text-center" id="welcome">WELCOME TO</p>
+                        <p className="text-center company-name">Rooster Grin</p>
+                </Column>
+            </Row>
         )
     }
 }
