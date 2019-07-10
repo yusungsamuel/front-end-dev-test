@@ -15,8 +15,11 @@ class Landing extends Component {
                     extraClass="landing"
                 >
                     <img className="logo" src="/assets/image/logo-white.svg" />
-                        <p className="my-auto text-center" id="welcome">WELCOME TO</p>
-                        <p className="text-center company-name">Rooster Grin</p>
+                    <div className="text-center welcome-text">
+                        <h2 id="welcome">WELCOME TO</h2>
+                        <h2 className="company-name">Rooster Grin</h2>
+                        <button className="btn landing-btn">Learn More</button>
+                    </div>
                 </Column>
             </Row>
         )

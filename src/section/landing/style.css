@@ -21,14 +21,24 @@
     bottom: 50%;
     left: 40%; */
     color: rgba(255, 255, 255, 0);
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: bold;
     -webkit-text-stroke: .25rem rgb(255, 255, 255);
     
 }
 
 .company-name {
-    font-size: 4rem;
+    font-size: 5rem;
     color: white;
     font-weight: bold;
+}
+
+.welcome-text {
+    margin-top: 15%
+}
+
+.landing-btn {
+    color: white;
+    background: rgb(187, 66, 235);
+    padding: 1rem;
 }
