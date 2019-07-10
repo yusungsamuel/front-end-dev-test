@@ -1,0 +1,28 @@
+.service{
+    min-height: 70vh;
+}
+
+.service-right {
+    background: rgb(246, 246, 246)
+}
+
+#service-title {
+    color: rgb(65, 65, 65)
+}
+
+.image-wrapper {
+    height: 10rem;
+    width:10rem;
+    border: solid purple 2px;
+    border-radius: 50%;
+}
+
+.service-icon{
+    height: 70%;
+    margin: 1.5rem;
+}
+
+.service-name {
+    font-weight: bold
+}
+

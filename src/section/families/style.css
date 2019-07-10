@@ -1,0 +1,26 @@
+.families {
+    background-image: url("/assets/image/banner-1.jpg");
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    min-height: 70vh;
+}
+
+.families-content {
+    position: absolute;
+    left: 20%;
+    top:45%;
+}
+
+#families-title {
+    color: rgba(92, 0, 128, 0.856);
+    font-weight: bold;
+
+}
+
+.families-button {
+    color: white;
+    background-color: rgb(255, 115, 0);
+    padding: 1rem;
+
+}

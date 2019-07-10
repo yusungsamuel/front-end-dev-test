@@ -5,20 +5,20 @@ import "./style.css"
 export function Friends() {
     return (
         <Row
+        extraClass="friends"
         >
             <Column
                 width="6"
                 extraClass="text-left"
             >
                 <div className="mx-auto my-5 friends-text">
-                    <h3 id="friends-title">Friends</h3>
+                    <h2 id="friends-title">Friends</h2>
                     <p>Looking for fun activities to do with your friends over the weekend, we can help you plan it. We have offers for activities ranging from outdoor, such as hiking, to indoor, such as karaoke. Just answer a few question and we can give you a few suggestion that you may like.</p>
-                    <a id="friends-link" href="#">Learn More</a>
+                    <b><a class="link" href="#">> Learn More</a></b>
                 </div>
             </Column>
             <Column
                 width="6"
-                extraClass="p-0"
             >
                 <img id="friends-img" src="/assets/image/img-1.jpg" />
             </Column>
