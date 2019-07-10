@@ -2,7 +2,7 @@ import React from "react"
 
 export function Row (props){
     return (
-        <div className={"row"+ " " + props.extraClass}>
+        <div className={"row no-gutters" + " " + props.extraClass}>
             {props.children}
         </div>
     )

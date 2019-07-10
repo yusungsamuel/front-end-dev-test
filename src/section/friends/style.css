@@ -1,0 +1,17 @@
+.friends-text {
+    width: 50%
+}
+
+#friends-title {
+    font-weight: bold;
+    color: rgb(92, 0, 128)
+}
+
+#friends-link {
+    color: rgb(92, 0, 128)
+}
+
+#friends-img {
+    width: 100%;
+    min-height: 100%
+}
