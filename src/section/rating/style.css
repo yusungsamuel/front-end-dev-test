@@ -1,0 +1,10 @@
+.fa-star {
+    color: rgb(255, 115, 0)
+}
+
+.rating-content {
+    width: 50%;
+    position: absolute;
+    top: 5rem;
+    left: 20%
+}

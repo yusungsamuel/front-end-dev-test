@@ -3,7 +3,10 @@
 }
 
 .friends-text {
-    width: 50%
+    width: 50%;
+    position: absolute;
+    top: 5rem;
+    left: 20%
 }
 
 #friends-title {
