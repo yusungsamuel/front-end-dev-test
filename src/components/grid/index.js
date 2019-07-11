@@ -10,7 +10,7 @@ export function Row (props){
 
 export function Column (props){
     return (
-        <div className={"col-" + props.width + " " + props.extraClass}>
+        <div className={"col-" + props.width + " " + props.extraClass} style={props.style}>
             {props.children}
         </div>
     )

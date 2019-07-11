@@ -2,12 +2,17 @@ import React from "react"
 import { Row, Column } from "../../components/grid"
 import "./style.css"
 
+const style = {
+    backgroundImage: "url('./assets/image/banner-2.jpg')"
+  };
+
 export function Future() {
     return (
         <Row>
             <Column
                 width="12"
                 extraClass="future"
+                style={style}
             >
                 <div className="future-content">
                     <h2 id="future-title">Future Generation</h2>

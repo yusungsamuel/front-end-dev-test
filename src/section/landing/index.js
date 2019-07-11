@@ -2,14 +2,19 @@ import React, { Component } from "react"
 import { Row, Column } from "../../components/grid"
 import "./style.css"
 
+const style = {
+    backgroundImage: "url('./assets/image/hero.jpg')"
+  };
+   
 
 function Landing () {
     
         return (
             <Row>
-                <Column
-                    width="12"
+                <Column 
+                    width="12" 
                     extraClass="landing"
+                    style={style}
                 >
                     <img className="logo" src="./assets/image/logo-white.svg" alt="logo"/>
                     <div className="text-center welcome-text">

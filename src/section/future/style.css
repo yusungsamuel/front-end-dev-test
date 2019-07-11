@@ -1,5 +1,5 @@
 .future {
-    background-image: url("./assets/image/banner-2.jpg");
+    /* background-image: url("/assets/image/banner-2.jpg"); */
     background-size: cover;
     background-repeat: none;
     background-position: center;
@@ -25,7 +25,7 @@
 
 @media only screen and (max-width: 540px) {
     .future {
-        background-image: url("/assets/image/banner-2.jpg");
+        /* background-image: url("/assets/image/banner-2.jpg"); */
         background-size: cover;
         background-repeat: none;
         background-position: center;
