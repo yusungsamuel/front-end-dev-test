@@ -6,15 +6,15 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     min-height: 100vh;
-    max-width:100vw;
+    min-width:100vw;
     background-size: cover;
 }
 
 .logo {
-    width: 15rem;
+    width: 15vw;
     position: absolute;
-    top: 3rem;
-    left: 10rem;
+    top: 3vw;
+    left: 10vw;
 }
 
 #welcome {
@@ -22,14 +22,14 @@
     bottom: 50%;
     left: 40%; */
     color: rgba(255, 255, 255, 0);
-    font-size: 5rem;
+    font-size: 5vw;
     font-weight: bold;
-    -webkit-text-stroke: .25rem rgb(255, 255, 255);
+    -webkit-text-stroke: .25vw rgb(255, 255, 255);
     
 }
 
 .company-name {
-    font-size: 5rem;
+    font-size: 5vw;
     color: white;
     font-weight: bold;
 }
@@ -41,5 +41,22 @@
 .landing-btn {
     color: white;
     background: rgb(187, 66, 235);
-    padding: 1rem;
+    padding: 1vw;
 }
+
+
+/* Responsiveness */
+
+@media only screen and (max-width: 540px) {
+    .landing {
+    background-image: url("/assets/image/hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height:40vh;
+    min-width:100vw;
+    background-size: cover;
+    }
+  }

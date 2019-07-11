@@ -30,7 +30,7 @@ export function Service() {
                     >
                         <div className="image-wrapper">
                             <img className="service-icon" src="/assets/image/home-expertise.svg" />
-                            <h4 className="text-center service-name">Education</h4>
+                            <h3 className="text-center service-name">Education</h3>
                         </div>
 
                     </Column>
@@ -39,7 +39,7 @@ export function Service() {
                     >
                         <div className="image-wrapper">
                             <img className="service-icon" src="/assets/image/home-hygiene.svg" />
-                            <h4 className="text-center service-name">Health</h4>
+                            <h3 className="text-center service-name">Health</h3>
                         </div>
 
                     </Column>
@@ -52,7 +52,7 @@ export function Service() {
                     >
                         <div className="image-wrapper">
                             <img className="service-icon" src="/assets/image/home-lab.svg" />
-                            <h4 className="text-center service-name">Experiment</h4>
+                            <h3 className="text-center service-name">Experiment</h3>
                         </div>
 
 
@@ -62,7 +62,7 @@ export function Service() {
                     >
                         <div className="image-wrapper">
                             <img className="service-icon" src="/assets/image/home-retention.svg" />
-                            <h4 className="text-center service-name">Daily Care</h4>
+                            <h3 className="text-center service-name">Daily Care</h3>
                         </div>
 
 

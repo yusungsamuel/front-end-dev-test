@@ -11,15 +11,15 @@ export function Carousel() {
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active ">
-                    <b className="reviewer">John Doe 08/08/2019</b>
+                    <p className="reviewer">John Doe 08/08/2019</p>
                     <p>I love using Rooster Grin. I use Rooster Grin to help me with money management. After using it for 3 months, I saved over $2000 which I would probably spent it on unnecessary stuff if Rooster Grin didn't help me.</p>
                 </div>
                 <div class="carousel-item">
-                    <b className="reviewer">Sam Smith 01/01/2018</b>
+                    <p className="reviewer">Sam Smith 01/01/2018</p>
                     <p>Rooster Grin helped me manage my tour schedule. After using Rooster Grin, I didn't need to hire a manager or personal assistant anymore. Look out for my concert date on Rooster Grin.Rooster Grin helped me manage my tour schedule. After using Rooster Grin, I didn't need to hire a manager or personal assistant anymore. Look out for my concert date on Rooster Grin.Rooster Grin helped me manage my tour schedule. After using Rooster Grin, I didn't need to hire a manager or personal assistant anymore. Look out for my concert date on Rooster Grin.Rooster Grin helped me manage my tour schedule. After using Rooster Grin, I didn't need to hire a manager or personal assistant anymore. Look out for my concert date on Rooster Grin.</p>
                 </div>
                 <div class="carousel-item">
-                    <b className="reviewer">John Doe 08/08/2019</b>
+                    <p className="reviewer">John Doe 08/08/2019</p>
                     <p>I love using Rooster Grin. I use Rooster Grin to help me with money management. After using it for 3 months, I saved over $2000 which I would probably spent it on unnecessary stuff if Rooster Grin didn't help me.</p>
                 </div>
             </div>

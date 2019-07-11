@@ -5,7 +5,7 @@ import "./style.css"
 export function Friends() {
     return (
         <Row
-        extraClass="friends"
+        id="friends"
         >
             <Column
                 width="6"

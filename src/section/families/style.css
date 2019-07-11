@@ -8,8 +8,8 @@
 
 .families-content {
     position: absolute;
-    left: 20%;
-    top:45%;
+    left: 20vw;
+    top:30vh;
 }
 
 #families-title {
@@ -21,6 +21,21 @@
 .families-button {
     color: white;
     background-color: rgb(255, 115, 0);
-    padding: 1rem;
+    padding: 1vw;
 
 }
+
+@media only screen and (max-width: 540px) {
+    .families {
+        background-image: url("/assets/image/banner-1.jpg");
+        background-size: cover;
+        background-repeat: none;
+        background-position: center;
+        min-height: 30vh;
+    }
+    .families-content {
+        position: absolute;
+        left: 20vw;
+        top:30vw;
+    }
+  }

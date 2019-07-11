@@ -3,11 +3,8 @@ import { Row, Column } from "../../components/grid"
 import "./style.css"
 
 
-class Landing extends Component {
-    state = {}
-
-
-    render() {
+function Landing () {
+    
         return (
             <Row>
                 <Column
@@ -16,14 +13,13 @@ class Landing extends Component {
                 >
                     <img className="logo" src="/assets/image/logo-white.svg" />
                     <div className="text-center welcome-text">
-                        <h2 id="welcome">WELCOME TO</h2>
-                        <h2 className="company-name">Rooster Grin</h2>
-                        <button className="btn landing-btn">Learn More</button>
+                        <h1 id="welcome">WELCOME TO</h1>
+                        <h1 className="company-name">Rooster Grin</h1>
+                        <a href="#friends" className="btn landing-btn">Learn More</a>
                     </div>
                 </Column>
             </Row>
         )
-    }
 }
 
 export default Landing;

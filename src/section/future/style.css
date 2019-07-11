@@ -8,9 +8,9 @@
 
 .future-content {
     position: absolute;
-    left: 60%;
-    top: 30%;
-    max-width: 30%
+    left: 60vw;
+    top: 10vw;
+    max-width: 30vw
 }
 
 #future-title{
@@ -20,6 +20,16 @@
 .future-button {
     color: white;
     background-color: rgb(255, 115, 0);
-    padding: 1rem;
+    padding: 1vw;
 }
 
+@media only screen and (max-width: 540px) {
+    .future {
+        background-image: url("/assets/image/banner-2.jpg");
+        background-size: cover;
+        background-repeat: none;
+        background-position: center;
+        min-height: 30vh;
+    }
+
+  }

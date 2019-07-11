@@ -3,9 +3,9 @@
 }
 
 .friends-text {
-    width: 50%;
+    width: 30vw;
     position: absolute;
-    top: 5rem;
+    top: 10vw;
     left: 20%
 }
 
@@ -19,6 +19,16 @@
 }
 
 #friends-img {
-    width: 100%;
-    min-height: 100%
+    width: 50vw;
+    min-height: 70vh
 }
+
+@media only screen and (max-width: 540px) {
+    .friends {
+        min-height: 20vh
+    }
+    #friends-img {
+        width: 50vw;
+        min-height:30vh
+    }
+  }

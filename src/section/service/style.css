@@ -11,18 +11,24 @@
 }
 
 .image-wrapper {
-    height: 10rem;
-    width:10rem;
-    border: solid purple 2px;
-    border-radius: 50%;
+    height: 10vw;
+    width:10vw;
+    border: solid purple .3vw;
+    border-radius: 50vh;
 }
 
 .service-icon{
     height: 70%;
-    margin: 1.5rem;
+    margin: 1.5vw;
 }
 
 .service-name {
     font-weight: bold
 }
+
+@media only screen and (max-width: 540px) {
+    .service{
+        min-height: 30vh;
+    }
+  }
 
