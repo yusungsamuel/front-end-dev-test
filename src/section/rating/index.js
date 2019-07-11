@@ -13,7 +13,7 @@ export function Rating() {
                 extraClass="text-left"
             >
                 <div className="rating-content">
-                    <h2 id="rating-title">Many Customer Reated Us Five Starts on Google</h2>
+                    <h2 id="rating-title">Many Customer Rated Us Five Stars on Google</h2>
                     <i class="fas fa-star fa-lg mx-1"></i>
                     <i class="fas fa-star fa-lg mx-1"></i>
                     <i class="fas fa-star fa-lg mx-1"></i>

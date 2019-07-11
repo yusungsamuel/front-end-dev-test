@@ -17,9 +17,33 @@
     border-radius: 50vh;
 }
 
+.service-link {
+  color: rgb(65, 65, 65)
+}
+
 .service-icon{
     height: 70%;
     margin: 1.5vw;
+}
+
+@keyframes pulse {
+    from {
+      transform: scale3d(1, 1, 1);
+    }
+  
+    50% {
+      transform: scale3d(1.05, 1.05, 1.05);
+    }
+  
+    to {
+      transform: scale3d(1, 1, 1);
+    }
+  }
+
+.image-wrapper:hover {
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-fill-mode: both;
 }
 
 .service-name {

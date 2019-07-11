@@ -11,7 +11,7 @@ export function Families () {
             >
                 <div className="families-content">
                     <h2 id="families-title">Family Bonding</h2>
-                    <button className="btn families-button">Learn More</button>
+                    <a href="https://www.roostergrin.com/" className="btn families-button">Learn More</a>
                 </div>
             </Column>
         </Row>
