@@ -1,5 +1,6 @@
 import React from "react"
 import { Row, Column } from "../../components/grid"
+import {Carousel} from "../../components/carousel"
 import "./style.css"
 
 export function Rating() {
@@ -23,7 +24,7 @@ export function Rating() {
             <Column
                 width="6"
             >
-                
+                <Carousel></Carousel>
             </Column>
         </Row>
     )

@@ -1,0 +1,37 @@
+.carousel {
+    max-width:80%;
+    height:100%;
+    margin-top: 2rem;
+}
+
+.carousel-item {
+    padding:0 5rem 0 5rem;
+    height:20rem;
+    overflow: scroll;
+    margin-top: 3rem;
+}
+
+.reviewer {
+    color: rgba(92, 0, 128, 0.856);
+    margin: 0 5rem 5rem 5rem
+}
+
+.carousel-control-icon {
+    color: rgba(92, 0, 128, 0.856);
+}
+
+.carousel-item-counter {
+    color: yellow
+}
+
+.carousel-indicators {
+    list-style: disc ;
+    
+}
+    
+.carousel-indicators li{
+    color:rgb(255, 208, 0);
+    
+}
+
+
