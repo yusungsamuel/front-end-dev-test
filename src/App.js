@@ -5,6 +5,7 @@ import {Families} from "./section/families"
 import {Service} from "./section/service"
 import {Future} from "./section/future"
 import {Rating} from "./section/rating"
+import {Footer} from "./section/footer"
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <Service></Service>
     <Future></Future>
     <Rating></Rating>
+    <Footer></Footer>
     </div>
   );
 }

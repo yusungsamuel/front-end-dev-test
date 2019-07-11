@@ -1,0 +1,10 @@
+footer {
+    min-width: 100vw;
+    background-color:rgb(233, 233, 233);
+    padding-top: 2rem;
+}
+
+.social-media-icon {
+    fill:purple;
+    width: 3rem;
+}
