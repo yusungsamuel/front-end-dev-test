@@ -27,7 +27,7 @@
 
 @media only screen and (max-width: 540px) {
     .families {
-        background-image: url("/assets/image/banner-1.jpg");
+        background-image: url("./assets/image/banner-1.jpg");
         background-size: cover;
         background-repeat: none;
         background-position: center;

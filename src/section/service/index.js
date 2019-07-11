@@ -30,7 +30,7 @@ export function Service() {
                     >
                         <a className="service-link" href="https://www.roostergrin.com/our-services/web-design-development">
                             <div className="image-wrapper">
-                                <img className="service-icon" src="/assets/image/home-expertise.svg" />
+                                <img className="service-icon" src="./assets/image/home-expertise.svg" />
                                 <h3 className="text-center service-name">Education</h3>
                             </div>
                         </a>
@@ -41,7 +41,7 @@ export function Service() {
                     >
                         <a className="service-link" href="https://www.roostergrin.com/our-services/web-design-development">
                             <div className="image-wrapper">
-                                <img className="service-icon" src="/assets/image/home-hygiene.svg" />
+                                <img className="service-icon" src="./assets/image/home-hygiene.svg" />
                                 <h3 className="text-center service-name">Health</h3>
                             </div>
                         </a>
@@ -56,7 +56,7 @@ export function Service() {
                     >
                         <a className="service-link" href="https://www.roostergrin.com/our-services/web-design-development">
                             <div className="image-wrapper">
-                                <img className="service-icon" src="/assets/image/home-lab.svg" />
+                                <img className="service-icon" src="./assets/image/home-lab.svg" />
                                 <h3 className="text-center service-name">Experiment</h3>
                             </div>
                         </a>
@@ -68,7 +68,7 @@ export function Service() {
                     >
                         <a className="service-link" href="https://www.roostergrin.com/our-services/web-design-development">
                             <div className="image-wrapper">
-                                <img className="service-icon" src="/assets/image/home-retention.svg" />
+                                <img className="service-icon" src="./assets/image/home-retention.svg" />
                                 <h3 className="text-center service-name">Daily Care</h3>
                             </div>
                         </a>

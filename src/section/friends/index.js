@@ -20,7 +20,7 @@ export function Friends() {
             <Column
                 width="6"
             >
-                <img id="friends-img" src="/assets/image/img-1.jpg" />
+                <img id="friends-img" src="./assets/image/img-1.jpg" />
             </Column>
         </Row>
     )

@@ -1,5 +1,5 @@
 .landing {
-    background-image: url("/build/image/hero.jpg");
+    background-image: url("./assest/image/hero.jpg");
     background-position: center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
